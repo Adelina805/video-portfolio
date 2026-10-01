@@ -1,0 +1,26 @@
+Placeholder clips: trimmed, scaled/cropped, and re-encoded excerpts of
+videos from Wikimedia Commons. Audio removed. Replace with final footage.
+
+cat-01  "Cat Jumpscare" by Panini! (CC0)
+        https://commons.wikimedia.org/wiki/File:Cat_Jumpscare.webm
+cat-02  "Cat Plays" by Riverarvi (CC BY-SA 4.0)
+        https://commons.wikimedia.org/wiki/File:Cat_Plays.webm
+cat-03  "Cat playing with a lizard" by Basile Morin (CC BY-SA 4.0)
+        https://commons.wikimedia.org/wiki/File:Cat_playing_with_a_lizard.webm
+cat-04  "Cat lapping water off ground in slow motion" by Grendelkhan (CC BY-SA 4.0), cropped to 4:5
+        https://commons.wikimedia.org/wiki/File:Cat_lapping_water_off_ground_in_slow_motion.gk.webm
+cat-05  "A male cat grooms a female kitten" by Wiki Taro (Public domain)
+        https://commons.wikimedia.org/wiki/File:A_male_cat_grooms_a_female_kitten_2021-08-25_August_25.webm
+cat-06  "Cat yawning in slow motion" by Grendelkhan (CC BY-SA 4.0)
+        https://commons.wikimedia.org/wiki/File:Cat_yawning_in_slow_motion.webm
+cat-07  "Cat kneading blanket in slow motion" by Grendelkhan (CC BY-SA 4.0), cropped to 1:1
+        https://commons.wikimedia.org/wiki/File:Cat_kneading_blanket_in_slow_motion.gk.webm
+cat-08  "Cat jumping backwards" by Mary Qin (CC BY 3.0)
+        https://commons.wikimedia.org/wiki/File:Cat_jumping_backwards.webm
+cat-09  "Cat discovers it was being spied on" by Yourusernamewillbepublic2 (CC0)
+        https://commons.wikimedia.org/wiki/File:Cat_discovers_it_was_being_spied_on.webm
+
+License texts:
+  CC BY 3.0      https://creativecommons.org/licenses/by/3.0/
+  CC BY-SA 4.0   https://creativecommons.org/licenses/by-sa/4.0/
+  CC0            https://creativecommons.org/publicdomain/zero/1.0/
