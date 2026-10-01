@@ -19,8 +19,54 @@ cat-08  "Cat jumping backwards" by Mary Qin (CC BY 3.0)
         https://commons.wikimedia.org/wiki/File:Cat_jumping_backwards.webm
 cat-09  "Cat discovers it was being spied on" by Yourusernamewillbepublic2 (CC0)
         https://commons.wikimedia.org/wiki/File:Cat_discovers_it_was_being_spied_on.webm
+cat-10  "Green eyed cat" by NairobiPapel (Kamaa) (CC BY-SA 4.0)
+        https://commons.wikimedia.org/wiki/File:Green_eyed_cat.webm
+cat-11  "Moomin1" by User:Tet (CC0)
+        https://commons.wikimedia.org/wiki/File:Moomin1.webm
+cat-12  "British Shorthair Silver Tabby Grooming" by Kimtology (CC BY-SA 4.0)
+        https://commons.wikimedia.org/wiki/File:British_Shorthair_Silver_Tabby_Grooming.mpg
+cat-13  "Two kittens 2 2017-06-21" by FASTILY (CC BY-SA 4.0)
+        https://commons.wikimedia.org/wiki/File:Two_kittens_2_2017-06-21.webm
+cat-14  "2 year old Siamese Tabby Cat 1 2016-05-22" by FASTILY (CC BY-SA 4.0)
+        https://commons.wikimedia.org/wiki/File:2_year_old_Siamese_Tabby_Cat_1_2016-05-22.webm
+cat-15  "Cat Self-Cleaning 2 2016-07-26" by FASTILY (CC BY-SA 4.0), cropped to 9:16
+        https://commons.wikimedia.org/wiki/File:Cat_Self-Cleaning_2_2016-07-26.webm
+cat-16  "Kitten playing - Tokyo - Jan 7 2020" by Nesnad (CC BY 4.0), cropped to 9:16
+        https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm
+cat-17  "Cat scratching" by Carrotkit (CC BY-SA 4.0), pillarbox removed
+        https://commons.wikimedia.org/wiki/File:Cat_scratching.webm
+cat-18  "Housecat Grooming Itself" by Thebombzen (CC BY-SA 4.0)
+        https://commons.wikimedia.org/wiki/File:Housecat_Grooming_Itself.webm
+cat-19  "Cat playing with a laser pointer" by Clément Bucco-Lechat (CC BY-SA 3.0)
+        https://commons.wikimedia.org/wiki/File:Cat_playing_with_a_laser_pointer.webm
+cat-20  "Kittys" by Anggggggela (CC BY-SA 4.0)
+        https://commons.wikimedia.org/wiki/File:Kittys.webm
+cat-21  "My Cat "Mr Kitty" or "Jellybelly"" by User:PseudoSkull (CC0)
+        https://commons.wikimedia.org/wiki/File:My_Cat_%22Mr_Kitty%22_or_%22Jellybelly%22.webm
+cat-22  "Muslim playing with kitten and praying beads in Al Azhar mosque in Cairo" by Daniel Brvnistan (CC BY-SA 4.0)
+        https://commons.wikimedia.org/wiki/File:Muslim_playing_with_kitten_and_praying_beads_in_Al_Azhar_mosque_in_Cairo.webm
+cat-23  "2022-03-27 TABOR CARNIVORA Felis catus DOMAČA MAČKA" by NaIzletuSi (CC BY 3.0)
+        https://commons.wikimedia.org/wiki/File:2022-03-27_TABOR_CARNIVORA_Felis_catus_DOMAČA_MAČKA.webm
+cat-24  "Cat drinking" by NairobiPapel (CC BY-SA 4.0), cropped to 4:5
+        https://commons.wikimedia.org/wiki/File:Cat_drinking.webm
+cat-25  "Drinking cat (Madrid, Spain) 01" by Luis García (Zaqarbal) (CC BY-SA 3.0 ES), cropped to 4:5
+        https://commons.wikimedia.org/wiki/File:Drinking_cat_(Madrid,_Spain)_01.webm
+cat-26  "Felis silvestris catus (Monarca)" by George Miquilena (CC0), cropped to 4:5
+        https://commons.wikimedia.org/wiki/File:Felis_silvestris_catus_(Monarca).ogv
+cat-27  "Munchkin kitty Temari Cat Cafe No Ouchie" by Liz Mc (CC BY 2.0), cropped to 4:5
+        https://commons.wikimedia.org/wiki/File:Munchkin_kitty_Temari_Cat_Cafe_No_Ouchie.webm
+cat-28  "Amelia -cat purrs and kneads" by Paulo O (CC BY 2.0)
+        https://commons.wikimedia.org/wiki/File:Amelia_-cat_purrs_and_kneads.webm
+cat-29  "Salto - Cat Jump" by Record 124 (CC BY 3.0)
+        https://commons.wikimedia.org/wiki/File:Salto_-_Cat_Jump.webm
+cat-30  "Cat Play 02" by NairobiPapel (Kamaa) (CC BY-SA 4.0), cropped to 1:1
+        https://commons.wikimedia.org/wiki/File:Cat_Play_02.webm
 
 License texts:
+  CC BY 2.0      https://creativecommons.org/licenses/by/2.0/
   CC BY 3.0      https://creativecommons.org/licenses/by/3.0/
+  CC BY 4.0      https://creativecommons.org/licenses/by/4.0/
+  CC BY-SA 3.0   https://creativecommons.org/licenses/by-sa/3.0/
+  CC BY-SA 3.0 ES https://creativecommons.org/licenses/by-sa/3.0/es/
   CC BY-SA 4.0   https://creativecommons.org/licenses/by-sa/4.0/
   CC0            https://creativecommons.org/publicdomain/zero/1.0/
