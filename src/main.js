@@ -1,4 +1,7 @@
+import { inject } from '@vercel/analytics';
 import { media } from './media.js';
+
+inject();
 
 const wall = document.getElementById('wall');
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
