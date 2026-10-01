@@ -160,6 +160,14 @@ body {
   .tile:hover .tile-meta {
     opacity: 1;
   }
+
+  .tile.is-loaded:hover::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    box-shadow: inset 0 0 0 1px var(--accent);
+    pointer-events: none;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
