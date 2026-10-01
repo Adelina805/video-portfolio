@@ -8,7 +8,6 @@ const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
 const breakpoints = [
   { query: window.matchMedia('(min-width: 1100px)'), columns: 3 },
-  { query: window.matchMedia('(min-width: 600px)'), columns: 2 },
 ];
 
 const PLAY_RATIO = 0.35;
@@ -58,7 +57,7 @@ function createTile(item) {
 
 function columnCount() {
   const match = breakpoints.find((bp) => bp.query.matches);
-  return match ? match.columns : 1;
+  return match ? match.columns : 2;
 }
 
 // Greedy shortest-column placement keeps reading order roughly left-to-right
