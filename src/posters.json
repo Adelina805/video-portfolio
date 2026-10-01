@@ -1,0 +1,562 @@
+{
+  "/media/cat-01.jpg": [
+    {
+      "src": "/media/posters/cat-01-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-01-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-01-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-02.jpg": [
+    {
+      "src": "/media/posters/cat-02-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-02-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-02-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-03.jpg": [
+    {
+      "src": "/media/posters/cat-03-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-03-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-03-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-04.jpg": [
+    {
+      "src": "/media/posters/cat-04-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-04-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-04-576.webp",
+      "width": 576
+    }
+  ],
+  "/media/cat-05.jpg": [
+    {
+      "src": "/media/posters/cat-05-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-05-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-05-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-06.jpg": [
+    {
+      "src": "/media/posters/cat-06-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-06-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-06-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-07.jpg": [
+    {
+      "src": "/media/posters/cat-07-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-07-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-07-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-08.jpg": [
+    {
+      "src": "/media/posters/cat-08-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-08-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-08-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-10.jpg": [
+    {
+      "src": "/media/posters/cat-10-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-10-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-10-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-12.jpg": [
+    {
+      "src": "/media/posters/cat-12-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-12-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-12-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-13.jpg": [
+    {
+      "src": "/media/posters/cat-13-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-13-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-13-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-14.jpg": [
+    {
+      "src": "/media/posters/cat-14-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-14-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-14-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-15.jpg": [
+    {
+      "src": "/media/posters/cat-15-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-15-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-15-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-16.jpg": [
+    {
+      "src": "/media/posters/cat-16-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-16-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-16-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-17.jpg": [
+    {
+      "src": "/media/posters/cat-17-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-17-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-17-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-18.jpg": [
+    {
+      "src": "/media/posters/cat-18-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-18-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-18-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-19.jpg": [
+    {
+      "src": "/media/posters/cat-19-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-19-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-19-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-20.jpg": [
+    {
+      "src": "/media/posters/cat-20-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-20-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-20-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-21.jpg": [
+    {
+      "src": "/media/posters/cat-21-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-21-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-21-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-23.jpg": [
+    {
+      "src": "/media/posters/cat-23-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-23-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-23-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-24.jpg": [
+    {
+      "src": "/media/posters/cat-24-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-24-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-24-576.webp",
+      "width": 576
+    }
+  ],
+  "/media/cat-25.jpg": [
+    {
+      "src": "/media/posters/cat-25-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-25-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-25-576.webp",
+      "width": 576
+    }
+  ],
+  "/media/cat-26.jpg": [
+    {
+      "src": "/media/posters/cat-26-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-26-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-26-576.webp",
+      "width": 576
+    }
+  ],
+  "/media/cat-28.jpg": [
+    {
+      "src": "/media/posters/cat-28-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-28-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-28-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-29.jpg": [
+    {
+      "src": "/media/posters/cat-29-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-29-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-29-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-30.jpg": [
+    {
+      "src": "/media/posters/cat-30-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-30-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-30-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-31.jpg": [
+    {
+      "src": "/media/posters/cat-31-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-31-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-31-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-32.jpg": [
+    {
+      "src": "/media/posters/cat-32-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-32-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-32-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-33.jpg": [
+    {
+      "src": "/media/posters/cat-33-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-33-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-33-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-34.jpg": [
+    {
+      "src": "/media/posters/cat-34-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-34-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-34-576.webp",
+      "width": 576
+    }
+  ],
+  "/media/cat-35.jpg": [
+    {
+      "src": "/media/posters/cat-35-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-35-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-35-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-36.jpg": [
+    {
+      "src": "/media/posters/cat-36-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-36-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-36-576.webp",
+      "width": 576
+    }
+  ],
+  "/media/cat-37.jpg": [
+    {
+      "src": "/media/posters/cat-37-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-37-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-37-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-38.jpg": [
+    {
+      "src": "/media/posters/cat-38-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-38-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-38-576.webp",
+      "width": 576
+    }
+  ],
+  "/media/cat-39.jpg": [
+    {
+      "src": "/media/posters/cat-39-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-39-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-39-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-40.jpg": [
+    {
+      "src": "/media/posters/cat-40-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-40-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-40-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-41.jpg": [
+    {
+      "src": "/media/posters/cat-41-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-41-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-41-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-42.jpg": [
+    {
+      "src": "/media/posters/cat-42-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-42-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-42-576.webp",
+      "width": 576
+    }
+  ],
+  "/media/cat-43.jpg": [
+    {
+      "src": "/media/posters/cat-43-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-43-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-43-640.webp",
+      "width": 640
+    }
+  ],
+  "/media/cat-44.jpg": [
+    {
+      "src": "/media/posters/cat-44-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/media/posters/cat-44-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/media/posters/cat-44-640.webp",
+      "width": 640
+    }
+  ]
+}

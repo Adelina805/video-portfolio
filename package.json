@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "posters": "node scripts/build-posters.mjs"
   },
   "devDependencies": {
+    "sharp": "^0.35.5",
     "vite": "^7.1.0"
   },
   "dependencies": {

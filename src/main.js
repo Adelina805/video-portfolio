@@ -1,22 +1,36 @@
 import { inject } from '@vercel/analytics';
 import { media } from './media.js';
+import { BREAKPOINTS, DEFAULT_COLUMNS, distribute } from './layout.js';
+import posterVariants from './posters.json';
 
 inject();
 
 const wall = document.getElementById('wall');
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
-const breakpoints = [
-  { query: window.matchMedia('(min-width: 1100px)'), columns: 3 },
-];
+const breakpoints = BREAKPOINTS.map(({ minWidth, columns }) => ({
+  query: window.matchMedia(`(min-width: ${minWidth}px)`),
+  columns,
+}));
 
 const PLAY_RATIO = 0.35;
 const NEAR_MARGIN = '50% 0px';
 // Upper bound on how long videos wait for first-screen posters.
 const READY_TIMEOUT = 2500;
 
+// Rendered tile width per column count; mirrors --margin, --gutter and the
+// .wall / .wall-column flex layout in styles.css.
+const MARGIN = 'clamp(16px, 3.2vw, 48px)';
+const GUTTER = 'clamp(8px, 1vw, 16px)';
+const columnSize = (count) => `calc((100vw - 2 * ${MARGIN} - ${count - 1} * ${GUTTER}) / ${count})`;
+const POSTER_SIZES = [
+  ...BREAKPOINTS.map(({ minWidth, columns }) => `(min-width: ${minWidth}px) ${columnSize(columns)}`),
+  columnSize(DEFAULT_COLUMNS),
+].join(', ');
+
 const tiles = media.map(createTile);
 const tileByFigure = new Map(tiles.map((tile) => [tile.figure, tile]));
+const tileByItem = new Map(tiles.map((tile) => [tile.item, tile]));
 let currentColumns = 0;
 let started = false;
 
@@ -72,50 +86,63 @@ function createTile(item) {
 
 function columnCount() {
   const match = breakpoints.find((bp) => bp.query.matches);
-  return match ? match.columns : 2;
+  return match ? match.columns : DEFAULT_COLUMNS;
 }
 
-// Greedy shortest-column placement keeps reading order roughly left-to-right
-// while balancing column heights from each clip's aspect ratio.
 function layout() {
   const count = columnCount();
   if (count === currentColumns) return;
   currentColumns = count;
 
-  const columns = Array.from({ length: count }, () => {
+  const columns = distribute(media, count).map((items) => {
     const column = document.createElement('div');
     column.className = 'wall-column';
+    column.append(...items.map((item) => tileByItem.get(item).figure));
     return column;
   });
-  const heights = new Array(count).fill(0);
-
-  for (const { item, figure } of tiles) {
-    const shortest = heights.indexOf(Math.min(...heights));
-    columns[shortest].append(figure);
-    heights[shortest] += item.height / item.width;
-  }
 
   wall.replaceChildren(...columns);
 }
 
-// Must run after layout(): first-screen posters load eagerly at high priority,
-// the rest defer to native lazy loading. Returns the first-screen posters.
+// Must run after layout(): first-screen posters load eagerly, and only the one
+// covering the most of the viewport (the likely LCP element) gets high
+// priority. The rest defer to native lazy loading. Returns the first-screen
+// posters.
 function loadPosters() {
   const fold = window.innerHeight;
-  const initial = [];
+  const initial = new Set();
+  let largest = null;
+  let largestArea = 0;
 
   for (const tile of tiles) {
     if (!tile.poster) continue;
-    if (tile.figure.getBoundingClientRect().top < fold) {
-      tile.poster.setAttribute('fetchpriority', 'high');
-      initial.push(tile.poster);
-    } else {
-      tile.poster.loading = 'lazy';
+    const rect = tile.figure.getBoundingClientRect();
+    if (rect.top >= fold) continue;
+    initial.add(tile);
+    const area = rect.width * (Math.min(rect.bottom, fold) - Math.max(rect.top, 0));
+    if (area > largestArea) {
+      largest = tile;
+      largestArea = area;
     }
-    tile.poster.src = tile.item.poster;
   }
 
-  return initial;
+  for (const tile of tiles) {
+    const { poster, item } = tile;
+    if (!poster) continue;
+    if (tile === largest) {
+      poster.setAttribute('fetchpriority', 'high');
+    } else if (!initial.has(tile)) {
+      poster.loading = 'lazy';
+    }
+    const variants = posterVariants[item.poster];
+    if (variants) {
+      poster.sizes = POSTER_SIZES;
+      poster.srcset = variants.map(({ src, width }) => `${src} ${width}w`).join(', ');
+    }
+    poster.src = item.poster;
+  }
+
+  return [...initial].map((tile) => tile.poster);
 }
 
 function whenDecoded(images) {
