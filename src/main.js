@@ -4,7 +4,6 @@ import { media } from './media.js';
 inject();
 
 const wall = document.getElementById('wall');
-const loader = document.getElementById('loader');
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
 const breakpoints = [
@@ -13,7 +12,7 @@ const breakpoints = [
 
 const PLAY_RATIO = 0.35;
 const NEAR_MARGIN = '50% 0px';
-// Upper bound on how long the loader waits for first-screen posters.
+// Upper bound on how long videos wait for first-screen posters.
 const READY_TIMEOUT = 2500;
 
 const tiles = media.map(createTile);
@@ -25,6 +24,7 @@ function createTile(item) {
   const figure = document.createElement('figure');
   figure.className = 'tile';
   figure.style.aspectRatio = `${item.width} / ${item.height}`;
+  const markLoaded = () => figure.classList.add('is-loaded');
 
   let poster = null;
   if (item.poster) {
@@ -32,6 +32,7 @@ function createTile(item) {
     poster.className = 'tile-poster';
     poster.alt = '';
     poster.decoding = 'async';
+    poster.addEventListener('load', markLoaded, { once: true });
     poster.addEventListener('error', () => poster.remove(), { once: true });
   }
 
@@ -47,7 +48,7 @@ function createTile(item) {
   video.setAttribute('disableremoteplayback', '');
   video.width = item.width;
   video.height = item.height;
-  video.addEventListener('loadeddata', () => figure.classList.add('is-ready'), { once: true });
+  video.addEventListener('loadeddata', () => figure.classList.add('is-ready', 'is-loaded'), { once: true });
 
   if (item.alt) {
     video.setAttribute('aria-label', item.alt);
@@ -123,12 +124,6 @@ function whenDecoded(images) {
   return Promise.race([decoded, timeout]);
 }
 
-function dismissLoader() {
-  if (!loader) return;
-  loader.classList.add('is-done');
-  setTimeout(() => loader.remove(), 400);
-}
-
 function loadTile(tile, preload) {
   const { item, video } = tile;
 
@@ -196,7 +191,6 @@ layout();
 // with the initial visual state.
 whenDecoded(loadPosters()).then(() => {
   started = true;
-  dismissLoader();
   for (const { figure } of tiles) {
     nearObserver.observe(figure);
     playObserver.observe(figure);
