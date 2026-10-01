@@ -17,12 +17,8 @@ cat-07  "Cat kneading blanket in slow motion" by Grendelkhan (CC BY-SA 4.0), cro
         https://commons.wikimedia.org/wiki/File:Cat_kneading_blanket_in_slow_motion.gk.webm
 cat-08  "Cat jumping backwards" by Mary Qin (CC BY 3.0)
         https://commons.wikimedia.org/wiki/File:Cat_jumping_backwards.webm
-cat-09  "Cat discovers it was being spied on" by Yourusernamewillbepublic2 (CC0)
-        https://commons.wikimedia.org/wiki/File:Cat_discovers_it_was_being_spied_on.webm
 cat-10  "Green eyed cat" by NairobiPapel (Kamaa) (CC BY-SA 4.0)
         https://commons.wikimedia.org/wiki/File:Green_eyed_cat.webm
-cat-11  "Moomin1" by User:Tet (CC0)
-        https://commons.wikimedia.org/wiki/File:Moomin1.webm
 cat-12  "British Shorthair Silver Tabby Grooming" by Kimtology (CC BY-SA 4.0)
         https://commons.wikimedia.org/wiki/File:British_Shorthair_Silver_Tabby_Grooming.mpg
 cat-13  "Two kittens 2 2017-06-21" by FASTILY (CC BY-SA 4.0)
@@ -43,8 +39,6 @@ cat-20  "Kittys" by Anggggggela (CC BY-SA 4.0)
         https://commons.wikimedia.org/wiki/File:Kittys.webm
 cat-21  "My Cat "Mr Kitty" or "Jellybelly"" by User:PseudoSkull (CC0)
         https://commons.wikimedia.org/wiki/File:My_Cat_%22Mr_Kitty%22_or_%22Jellybelly%22.webm
-cat-22  "Muslim playing with kitten and praying beads in Al Azhar mosque in Cairo" by Daniel Brvnistan (CC BY-SA 4.0)
-        https://commons.wikimedia.org/wiki/File:Muslim_playing_with_kitten_and_praying_beads_in_Al_Azhar_mosque_in_Cairo.webm
 cat-23  "2022-03-27 TABOR CARNIVORA Felis catus DOMAČA MAČKA" by NaIzletuSi (CC BY 3.0)
         https://commons.wikimedia.org/wiki/File:2022-03-27_TABOR_CARNIVORA_Felis_catus_DOMAČA_MAČKA.webm
 cat-24  "Cat drinking" by NairobiPapel (CC BY-SA 4.0), cropped to 4:5
@@ -53,19 +47,46 @@ cat-25  "Drinking cat (Madrid, Spain) 01" by Luis García (Zaqarbal) (CC BY-SA 3
         https://commons.wikimedia.org/wiki/File:Drinking_cat_(Madrid,_Spain)_01.webm
 cat-26  "Felis silvestris catus (Monarca)" by George Miquilena (CC0), cropped to 4:5
         https://commons.wikimedia.org/wiki/File:Felis_silvestris_catus_(Monarca).ogv
-cat-27  "Munchkin kitty Temari Cat Cafe No Ouchie" by Liz Mc (CC BY 2.0), cropped to 4:5
-        https://commons.wikimedia.org/wiki/File:Munchkin_kitty_Temari_Cat_Cafe_No_Ouchie.webm
 cat-28  "Amelia -cat purrs and kneads" by Paulo O (CC BY 2.0)
         https://commons.wikimedia.org/wiki/File:Amelia_-cat_purrs_and_kneads.webm
 cat-29  "Salto - Cat Jump" by Record 124 (CC BY 3.0)
         https://commons.wikimedia.org/wiki/File:Salto_-_Cat_Jump.webm
 cat-30  "Cat Play 02" by NairobiPapel (Kamaa) (CC BY-SA 4.0), cropped to 1:1
         https://commons.wikimedia.org/wiki/File:Cat_Play_02.webm
+cat-31  "Black Cat walking" by Dzkouslavia (CC0)
+        https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm
+cat-32  "Cat opening door" by Astropulse (CC BY-SA 4.0)
+        https://commons.wikimedia.org/wiki/File:Cat_opening_door.webm
+cat-33  "Cat relaxing on a sofa" by Ivan Kurmanov (CC BY 2.0), cropped to 1:1
+        https://commons.wikimedia.org/wiki/File:Cat_relaxing_on_a_sofa.webm
+cat-34  "Catblinking-tokyo-area-2018-4-9" by Nesnad (CC BY-SA 4.0), cropped to 4:5
+        https://commons.wikimedia.org/wiki/File:Catblinking-tokyo-area-2018-4-9.webm
+cat-35  "Koetjing gweh, Cito" by Gabpzxs (CC0)
+        https://commons.wikimedia.org/wiki/File:Koetjing_gweh,_Cito.webm
+cat-36  "2022-10-18 LJUBLJANA Doma CARNIVORA Felis catus DOMAČA MAČKA 4" by NaIzletuSi (CC BY 3.0), cropped to 4:5, brightened
+        https://commons.wikimedia.org/wiki/File:2022-10-18_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMAČA_MAČKA_4.webm
+cat-37  "Moomin2" by User:Tet (CC0)
+        https://commons.wikimedia.org/wiki/File:Moomin2.webm
+cat-38  "CocoCat" by Deavmi (CC BY-SA 3.0), cropped to 4:5
+        https://commons.wikimedia.org/wiki/File:CocoCat.ogv
+cat-39  "Black and white cat growl and hiss 2" by Abujoy (CC BY 4.0), cropped to 1:1
+        https://commons.wikimedia.org/wiki/File:Black_and_white_cat_growl_and_hiss_2.webm
+cat-40  "Cat interacting with catnip (nepeta)" by Leonora Enking (CC BY-SA 2.0)
+        https://commons.wikimedia.org/wiki/File:Cat_interacting_with_catnip_(nepeta).webm
+cat-41  "Orange tabby cat grooming and purring close-up" by Brion VIBBER (CC BY-SA 3.0), cropped to 1:1
+        https://commons.wikimedia.org/wiki/File:Orange_tabby_cat_grooming_and_purring_close-up.webm
+cat-42  "Cat reacting to a fish tank" by Danmation (CC BY 3.0), cropped to 4:5
+        https://commons.wikimedia.org/wiki/File:Cat_reacting_to_a_fish_tank.webm
+cat-43  "Red-white tabby cat washing itself in the evening sun" by Veikk0.ma (CC BY-SA 4.0)
+        https://commons.wikimedia.org/wiki/File:Red-white_tabby_cat_washing_itself_in_the_evening_sun.webm
+cat-44  "Siamese Maine Coon 2 2019-06-10" by FASTILY (CC BY-SA 4.0), cropped to 1:1
+        https://commons.wikimedia.org/wiki/File:Siamese_Maine_Coon_2_2019-06-10.webm
 
 License texts:
   CC BY 2.0      https://creativecommons.org/licenses/by/2.0/
   CC BY 3.0      https://creativecommons.org/licenses/by/3.0/
   CC BY 4.0      https://creativecommons.org/licenses/by/4.0/
+  CC BY-SA 2.0   https://creativecommons.org/licenses/by-sa/2.0/
   CC BY-SA 3.0   https://creativecommons.org/licenses/by-sa/3.0/
   CC BY-SA 3.0 ES https://creativecommons.org/licenses/by-sa/3.0/es/
   CC BY-SA 4.0   https://creativecommons.org/licenses/by-sa/4.0/

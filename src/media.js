@@ -55,13 +55,6 @@ export const media = [
     poster: '/media/cat-06.jpg',
   },
   {
-    src: '/media/cat-09.mp4',
-    width: 720,
-    height: 1280,
-    label: 'Spotted',
-    poster: '/media/cat-09.jpg',
-  },
-  {
     src: '/media/cat-07.mp4',
     webm: '/media/cat-07.webm',
     width: 720,
@@ -74,6 +67,13 @@ export const media = [
     width: 1280,
     height: 720,
     poster: '/media/cat-08.jpg',
+  },
+  {
+    src: '/media/cat-32.mp4',
+    width: 720,
+    height: 1280,
+    label: 'Door',
+    poster: '/media/cat-32.jpg',
   },
   {
     src: '/media/cat-18.mp4',
@@ -95,13 +95,6 @@ export const media = [
     height: 720,
     label: 'Thirst',
     poster: '/media/cat-24.jpg',
-  },
-  {
-    src: '/media/cat-11.mp4',
-    width: 720,
-    height: 1280,
-    label: 'Moomin',
-    poster: '/media/cat-11.jpg',
   },
   {
     src: '/media/cat-28.mp4',
@@ -132,6 +125,13 @@ export const media = [
     poster: '/media/cat-25.jpg',
   },
   {
+    src: '/media/cat-31.mp4',
+    width: 1280,
+    height: 720,
+    label: 'Prowl',
+    poster: '/media/cat-31.jpg',
+  },
+  {
     src: '/media/cat-13.mp4',
     width: 720,
     height: 1280,
@@ -139,11 +139,25 @@ export const media = [
     poster: '/media/cat-13.jpg',
   },
   {
+    src: '/media/cat-33.mp4',
+    width: 720,
+    height: 720,
+    label: 'Sunbath',
+    poster: '/media/cat-33.jpg',
+  },
+  {
     src: '/media/cat-20.mp4',
     width: 1280,
     height: 720,
     label: 'Litter',
     poster: '/media/cat-20.jpg',
+  },
+  {
+    src: '/media/cat-34.mp4',
+    width: 576,
+    height: 720,
+    label: 'Blink',
+    poster: '/media/cat-34.jpg',
   },
   {
     src: '/media/cat-29.mp4',
@@ -160,11 +174,25 @@ export const media = [
     poster: '/media/cat-14.jpg',
   },
   {
+    src: '/media/cat-40.mp4',
+    width: 1280,
+    height: 720,
+    label: 'Catnip',
+    poster: '/media/cat-40.jpg',
+  },
+  {
     src: '/media/cat-26.mp4',
     width: 576,
     height: 720,
     label: 'Stretch',
     poster: '/media/cat-26.jpg',
+  },
+  {
+    src: '/media/cat-35.mp4',
+    width: 720,
+    height: 1280,
+    label: 'Cito',
+    poster: '/media/cat-35.jpg',
   },
   {
     src: '/media/cat-21.mp4',
@@ -174,6 +202,13 @@ export const media = [
     poster: '/media/cat-21.jpg',
   },
   {
+    src: '/media/cat-39.mp4',
+    width: 720,
+    height: 720,
+    label: 'Hiss',
+    poster: '/media/cat-39.jpg',
+  },
+  {
     src: '/media/cat-15.mp4',
     width: 720,
     height: 1280,
@@ -181,11 +216,11 @@ export const media = [
     poster: '/media/cat-15.jpg',
   },
   {
-    src: '/media/cat-22.mp4',
-    width: 1280,
+    src: '/media/cat-36.mp4',
+    width: 576,
     height: 720,
-    label: 'Cairo',
-    poster: '/media/cat-22.jpg',
+    label: 'Stairs',
+    poster: '/media/cat-36.jpg',
   },
   {
     src: '/media/cat-30.mp4',
@@ -195,6 +230,13 @@ export const media = [
     poster: '/media/cat-30.jpg',
   },
   {
+    src: '/media/cat-43.mp4',
+    width: 1280,
+    height: 720,
+    label: 'Sunset',
+    poster: '/media/cat-43.jpg',
+  },
+  {
     src: '/media/cat-16.mp4',
     width: 720,
     height: 1280,
@@ -202,10 +244,11 @@ export const media = [
     poster: '/media/cat-16.jpg',
   },
   {
-    src: '/media/cat-27.mp4',
+    src: '/media/cat-42.mp4',
     width: 576,
     height: 720,
-    poster: '/media/cat-27.jpg',
+    label: 'Aquarium',
+    poster: '/media/cat-42.jpg',
   },
   {
     src: '/media/cat-23.mp4',
@@ -214,10 +257,38 @@ export const media = [
     poster: '/media/cat-23.jpg',
   },
   {
+    src: '/media/cat-37.mp4',
+    width: 720,
+    height: 1280,
+    label: 'Desk',
+    poster: '/media/cat-37.jpg',
+  },
+  {
+    src: '/media/cat-41.mp4',
+    width: 720,
+    height: 720,
+    label: 'Snooze',
+    poster: '/media/cat-41.jpg',
+  },
+  {
+    src: '/media/cat-38.mp4',
+    width: 576,
+    height: 720,
+    label: 'Curtain',
+    poster: '/media/cat-38.jpg',
+  },
+  {
     src: '/media/cat-17.mp4',
     width: 720,
     height: 1280,
     label: 'Scratch',
     poster: '/media/cat-17.jpg',
+  },
+  {
+    src: '/media/cat-44.mp4',
+    width: 720,
+    height: 720,
+    label: 'Lounge',
+    poster: '/media/cat-44.jpg',
   },
 ];
