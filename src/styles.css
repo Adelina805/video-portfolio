@@ -64,6 +64,95 @@ body {
   color: var(--accent);
 }
 
+/* Loader */
+
+main {
+  position: relative;
+}
+
+.loader {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: center;
+  gap: 14px;
+  height: 100vh;
+  padding: 0 var(--margin);
+  background: var(--bg);
+  transition:
+    opacity 300ms ease,
+    visibility 0s linear 300ms;
+  /* CSS-only failsafe in case the script never runs. */
+  animation: loader-timeout 0s linear 8s forwards;
+}
+
+.loader.is-done {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader-text {
+  margin: 0;
+  font-size: 0.6875rem;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--fg);
+}
+
+.loader-sub {
+  color: var(--muted);
+}
+
+.loader-blocks {
+  display: flex;
+  gap: 4px;
+}
+
+.loader-blocks span {
+  width: 6px;
+  height: 6px;
+  background: var(--accent);
+  opacity: 0.2;
+  animation: loader-step 1.2s ease-in-out infinite;
+}
+
+.loader-blocks span:nth-child(2) {
+  animation-delay: 120ms;
+}
+
+.loader-blocks span:nth-child(3) {
+  animation-delay: 240ms;
+}
+
+.loader-blocks span:nth-child(4) {
+  animation-delay: 360ms;
+}
+
+.loader-blocks span:nth-child(5) {
+  animation-delay: 480ms;
+}
+
+@keyframes loader-step {
+  0%,
+  60%,
+  100% {
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 1;
+  }
+}
+
+@keyframes loader-timeout {
+  to {
+    visibility: hidden;
+  }
+}
+
 /* Video wall */
 
 .wall {
@@ -71,6 +160,10 @@ body {
   align-items: flex-start;
   gap: var(--gutter);
   padding: 0 var(--margin);
+}
+
+.wall:empty {
+  min-height: 100vh;
 }
 
 .wall-column {
@@ -88,11 +181,26 @@ body {
   background: var(--tile-bg);
 }
 
-.tile video {
+.tile video,
+.tile-poster {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.tile-poster {
+  position: absolute;
+  inset: 0;
+}
+
+.tile-poster + video {
+  position: relative;
+  opacity: 0;
+}
+
+.tile.is-ready video {
+  opacity: 1;
 }
 
 .tile-meta {
@@ -121,7 +229,8 @@ body {
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .tile video {
+  .tile video,
+  .tile-poster {
     transition:
       transform 700ms cubic-bezier(0.2, 0.6, 0.2, 1),
       filter 700ms ease;
@@ -131,7 +240,8 @@ body {
     transition: opacity 300ms ease;
   }
 
-  .tile:hover video {
+  .tile:hover video,
+  .tile:hover .tile-poster {
     transform: scale(1.015);
     filter: brightness(1.06) contrast(1.05);
   }
@@ -143,13 +253,21 @@ body {
 
 @media (prefers-reduced-motion: reduce) {
   .tile video,
+  .tile-poster,
   .tile-meta,
+  .loader,
   a {
     transition: none;
   }
 
-  .tile:hover video {
+  .tile:hover video,
+  .tile:hover .tile-poster {
     transform: none;
+  }
+
+  .loader-blocks span {
+    animation: none;
+    opacity: 0.6;
   }
 }
 

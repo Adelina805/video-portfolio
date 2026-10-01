@@ -8,6 +8,12 @@
     <meta name="description" content="Tyler Guan — First-Generation Student. Professional Videographer." />
     <title>Tyler Guan — Videographer</title>
     <link rel="stylesheet" href="/src/styles.css" />
+    <noscript>
+      <style>
+        .loader { display: none; }
+        .wall:empty { min-height: 0; }
+      </style>
+    </noscript>
   </head>
   <body>
     <header class="masthead">
@@ -16,6 +22,10 @@
     </header>
 
     <main>
+      <div class="loader" id="loader" role="status">
+        <p class="loader-text">Tyler Guan <span class="loader-sub">— Loading reel</span></p>
+        <span class="loader-blocks" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></span>
+      </div>
       <section class="wall" id="wall" aria-label="Selected work"></section>
     </main>
 
